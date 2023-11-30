@@ -33,8 +33,20 @@ nav {
     flex-wrap: wrap;
 }
 
-.logo {
-    width: 140px;
+.logo-text h1 {
+    margin: 0;
+    font-size: 2.5em; /* Adjust the font size */
+    color: #ffcc00; /* Adjust the color of your name */
+}
+
+.logo-text p {
+    font-size: 1.2em; /* Adjust the font size */
+    margin: 0.5em 0;
+}
+
+.logo-text p {
+    font-size: 14px; /* Adjust the font size */
+    margin: 0;
 }
 
 nav ul li {
@@ -93,6 +105,14 @@ nav ul li a:hover::after {
 
 .about-col-1 {
     flex-basis: 35%;
+}
+
+.about-col-1 img {
+    max-width: 80%; /* Set the maximum width to 100% of the container */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Remove extra space below the image */
+    margin: 0 auto; /* Center the image horizontally */
+    border-radius: 10px;
 }
 
 .about-col-2 {
@@ -170,6 +190,11 @@ nav ul li a:hover::after {
     font-weight: 300;
     border-radius: 10px;
     transition: background 0.5s, transform 0.5s;
+}
+
+.services-list div i{
+    font-size: 50px;
+    margin-bottom: 30px;
 }
 
 .services-list div h2 {
